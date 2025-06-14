@@ -1,0 +1,327 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  text-decoration: none;
+}
+nav{
+  position: fixed;
+  background: #025318;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+  background: #fff;
+  color: black;
+}
+.bigContainer{
+    padding-top: 22%;
+    padding-left: 12%;
+}
+.bigContainer h1{
+    font-size: 0.7in;
+    color: white;
+    margin-bottom: 3%;
+}
+#learnmore{
+    padding: 13px 24px;
+    margin-right: 5%;
+     background-color: #011A05;
+    color: white;
+    border: none;
+}
+#downloadapp{
+     padding: 13px 24px;
+       background-color:transparent;
+    color: white;
+    /* border-color: #011A05; */
+    border: 3px solid #011A05;
+    box-shadow: 0 0 5px;
+}
+.best{
+    margin-top: 10%;
+}
+.best h2{
+    font-size: 0.4in;
+}
+.container{
+    background-image: url(images/black-white-spotty-cows-farm.jpg);
+    background-repeat:no-repeat ;
+    /* background-position: inherit; */
+    height: 100vh;
+     background-color: rgba(0,0,0,0.9);
+    background-blend-mode: darken;
+}
+.about-us h1{
+    font-weight: 800;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+}
+.about-us{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.making-best{
+    display: flex;
+    /* margin-left: 9%; */
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.making-best p{
+    color: #034E16;
+}
+.commitment{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+}
+.commitment p{
+     color: #034E16; 
+     /* text-align: center; */
+}
+.why-chose-agricreds{
+    align-items: center;
+}
+.why-chose-agricreds p{
+      color: #034E16;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-left: 5%;
+    gap: 4cm;
+}
+.about p{
+      color: #034E16;
+}
+.loan-program{
+    display: flex;
+    gap: 2cm;
+    margin-top: 6%;
+}
+.loan-programs{
+    margin-top: 7%;
+    margin-right: 7%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+.loan-programs>h1{
+    text-align: center;
+     font-weight: 800;
+font-size: 64px;
+line-height: 77px;
+}
+.loan-programs p{
+      color: #034E16;
+}
+.loan-program img{
+    width: 17vw;
+    height: 23vh;
+    border-radius: 12px;
+}
+.download-app{
+    background-image: url(images/header-02.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+    background-position: center;
+    margin-left: 7%;
+    margin-right: 7%;
+    border-radius: 35px;
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: darken;
+}
+.download-app{
+    padding-top: 17%;
+    padding-left: 37%;
+    color: white;
+    margin-bottom: 12%;
+}
+.download-app h3{
+    /* text-align: center; */
+    color: white;
+}
+.download-app button{
+    margin-top: 2%;
+    padding: 12px 24px;
+    background-color: #011A05;
+    color: white;
+    border: none;
+}
+.container{
+    background-image: url(images/black-white-spotty-cows-farm.jpg);
+    background-color: rgba(0,0,0,0.7);
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 100vh;
+}
+.image img{
+    width: 42vw;
+    height: 70vh;
+}
+.experiences{
+    margin-top: 7%;
+    display: flex;
+    gap: 5cm;
+}
+.images img{
+      width: 12vw;
+    height: 16vh;
+    border-radius: 50% 50%;
+    /* gap: 2cm; */
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.agricreds{
+    text-align: center;
+    margin-bottom: 7%;
+}
+.agricreds h1{
+     font-weight: 800;
+font-size: 64px;
+line-height: 77px;
+}
+.partnerships h1{
+    text-align: center;
+    margin-bottom: 4%;
+     font-weight: 800;
+font-size: 64px;
+line-height: 77px;
+}
+.partnerships {
+    margin-left: 5%;
+}
+.rates img{
+        width: 12vw;
+    height: 16vh;
+}
+.terms img{
+        width: 12vw;
+    height: 16vh;
+}
+.support img{
+        width: 12vw;
+    height: 16vh;
+}
+.logo img{
+     width: 6vw;
+    height: 10vh;
+    margin-left: -5%;
+}
+.contactus{
+     font-size: large;
+
+}
+.foot{
+     background-color: #001904;
+     color: white;
+     margin: 0px;
+
+}
+.body{
+     /* background-color: rgb(8, 17, 8); */
+}
+.ally{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 9cm;
+    padding-left: 50px;
+     /* background-color: rgb(8, 17, 8); */
+
+}
+.socialicons{
+    display: flex;
+    gap: 1cm;
+
+}
+.bottom{
+    display: flex;
+   gap: 12cm;
+   padding-left: 30px;
+    font-size: large;
+    padding-top: 60px;
+}
+.services{
+    font-size: large;
+}
+.links{
+     font-size: large;
+}
+.form{
+    
+    /* border: solid 2px black; */
+   
+ 
+   
+  
+    label{
+        color:white
+    }
+    input{
+        width: 80%;
+        padding: 12px 14px;
+        background-color: #001904;
+        color: white;
+        border: solid 1px white;
+        transition: border-color 60s ease;
+    }
+  
+
+}
+.submit-button button{
+    background: none;
+    border: none;
+    background-color:white;
+    width: 65%;
+    color: black;
+    padding: 11px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+#message{
+    padding-bottom: 70px;
+}
