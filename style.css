@@ -56,7 +56,7 @@ nav .menu{
   color: black;
 }
 .bigContainer{
-    padding-top: 300px;
+    padding-top: 250px;
     padding-left: 6%;
 }
 .bigContainer h1{
@@ -442,7 +442,7 @@ nav .menu{
 }
 .bottom{
     display: flex;
-    gap: 7cm;
+    gap: 8cm;
     font-size: medium;
     padding-top: 20px;
     border-top:  solid 1px white;
