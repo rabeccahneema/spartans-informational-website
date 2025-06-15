@@ -60,7 +60,7 @@ nav .menu{
     padding-left: 6%;
 }
 .bigContainer h1{
-    font-size: 80px;
+    font-size: 70px;
     color: white;
     text-align: left;
     /* margin-bottom: 3%; */
@@ -442,7 +442,7 @@ nav .menu{
 }
 .bottom{
     display: flex;
-    gap: 10cm;
+    gap: 7cm;
     font-size: medium;
     padding-top: 20px;
     border-top:  solid 1px white;
