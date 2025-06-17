@@ -1,11 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
+}
+/* nav {
+    position: fixed;
+    background: #025318;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+}
+nav .menu {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu .logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: -4%;
+}
+.logo img {
+    padding-left: 20px;
+}
+.menu ul {
+    display: inline-flex;
+    padding-right: 4%;
+}
+.menu ul li {
+    list-style: none;
+    margin-left: 7px;
+}
+.menu ul li:first-child {
+    margin-left: 0px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.menu ul li a:hover {
+    background: #fff;
+    color: black;
+} */
+ .bottom{
+    display: flex;
+    gap: 5cm;
+    font-size: medium;
+    padding-top: 20px;
+    border-top:  solid 1px white;
+    background-color: #001904;
+    padding-left: 10cm;
 }
 nav {
   background: #025318;
@@ -59,18 +114,83 @@ nav {
     padding-top: 250px;
     padding-left: 6%;
 }
-
 .bigContainer h1 {
     font-size: 70px;
     color: white;
     text-align: left;
     /* margin-bottom: 3%; */
 }
+.contactus{
+     font-size: medium;
 
-.button {
-    padding-top: 20px;
 }
+.foot{
+     background-color: #001904;
+     color: rgb(216, 215, 215);
+     margin: 0px;
+     padding-top: 45px;
+     height: 75vh;
+}
+.ally{
+    display: flex;
+    gap: 9cm;
+    padding-left: 50px;
 
+}
+.socialicons{
+    display: flex;
+    gap: 1cm;
+
+}
+.bottom{
+    display: flex;
+    
+    font-size: medium;
+    padding-top: 20px;
+    border-top:  solid 1px white;
+    background-color: #001904;
+    padding-left: 10cm;
+}
+.services{
+    font-size: medium;
+}
+.links{
+     font-size: medium;
+}
+.form{
+    padding-bottom: 20px;
+    label{
+        color:white
+    }
+    input{
+        width: 80%;
+        padding: 12px 14px;
+        background-color: #001904;
+        color: white;
+        border: solid 1px white;
+        transition: border-color 60s ease;
+    }
+    label{
+        font-size: medium;
+        
+    }
+  
+
+}
+.submit-button button{
+    background: none;
+    border: none;
+    background-color:white;
+    width: 65%;
+    color: black;
+    padding: 11px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+#message{
+    padding-bottom: 70px;
+}
 /* .learnmore{
     padding: 17px;
     width: 175px;
@@ -79,10 +199,8 @@ nav {
     text-decoration: none;
     font-size: medium;
     border-radius: 8px;
- 
 } */
 .learnmore {
-   
     cursor: pointer;
     transition: background 0.3s;
     padding: 17px;
@@ -94,16 +212,13 @@ nav {
     border-radius: 8px;
     border: none;
 }
-
 .learnmore:hover {
-    background: #b8ac05;
+    background: #B8AC05;
 }
-
 .learnmore a {
     text-decoration: none;
     color: white;
 }
-
 #downloadapp {
     padding: 17px;
     width: 175px;
@@ -115,7 +230,6 @@ nav {
     border-radius: 8px;
     margin-left: 4%;
 }
-
 .container {
     background-image: linear-gradient(rgba(0, 0, 0.5), rgba(0, 0, 0.5))url('images/black-white-spotty-cows-farm.jpg');
     background-repeat: no-repeat;
@@ -125,30 +239,25 @@ nav {
     background-blend-mode: darken;
     opacity: 10px;
 }
-
 .about-us h1 {
     font-weight: 800;
     font-size: 64px;
     line-height: 77px;
     text-align: center;
 }
-
 .about-us {
     margin-top: 7%;
     margin-left: 3%;
     padding-bottom: 40px;
 }
-
 .image img {
     border-radius: 10px;
     opacity: 50% black;
     box-shadow: 0 1px 3px black;
 }
-
 .best {
     margin-top: 10%;
 }
-
 .best h2 {
     font-size: 64px;
     font-weight: normal;
@@ -157,13 +266,10 @@ nav {
     line-height: 77px;
     color: #001904;
 }
-
 .best p {
     text-align: left;
     font-size: 17px;
-
 }
-
 .making-best {
     display: flex;
     gap: 5cm;
@@ -171,11 +277,9 @@ nav {
     margin-bottom: 5%;
     padding-left: 30px;
 }
-
 .making-best p {
     color: #034E16;
 }
-
 .commitment {
     display: flex;
     padding-left: 30px;
@@ -184,7 +288,6 @@ nav {
     margin-top: 9%;
     margin-bottom: 7%;
 }
-
 .commitments h1 {
     font-size: 64px;
     font-weight: normal;
@@ -192,33 +295,25 @@ nav {
     margin-bottom: 4%;
     line-height: 77px;
 }
-
 .commitment p {
     color: #034E16;
     text-align: left;
     font-size: 17px;
 }
-
 .experiences h2 {
     font-size: xx-large;
     color: #001904;
-
-
 }
-
 .why-chose-agricreds {
     align-items: center;
     margin-bottom: 8%;
 }
-
 .agricreds {
     text-align: center;
     /* margin-bottom: 7%; */
     padding-top: 40px;
     padding-bottom: 60px;
-
 }
-
 .agricreds h1 {
     font-size: 64px;
     font-weight: normal;
@@ -226,13 +321,10 @@ nav {
     margin-bottom: 0.5%;
     line-height: 77px;
 }
-
 .agricreds p {
     color: #034E16;
     font-size: 17px;
-
 }
-
 .about {
     display: flex;
     /* padding-left: 60px; */
@@ -240,62 +332,42 @@ nav {
     margin-right: 8%;
     gap: 3cm;
 }
-
 .about p {
     color: #034E16;
     font-size: 16px;
 }
-
 .about {
     padding-top: 5px;
-
 }
-
 .rates img {
     width: 90px;
-
 }
-
 .terms img {
     width: 66px;
-
-
 }
-
 .support img {
     width: 90px;
 }
-
 .loan-program {
     display: flex;
     gap: 2cm;
     color: #001904;
-
 }
-
 .loan-program h2 {
     color: #001904;
-
 }
-
 .loan-program p {
     font-size: 17px;
-
 }
-
 .loan-programs {
     margin-left: 8%;
     margin-right: 7%;
     margin-top: 7%;
     padding-bottom: 60px;
-
-
 }
-
 .loan-programs p {
     color: #034E16;
 }
-
 .loan-program img {
     width: 20vw;
     height: 26vh;
@@ -303,7 +375,6 @@ nav {
     opacity: 50% black;
     box-shadow: 0 1px 3px black;
 }
-
 .download-app {
     background-image: url(images/monika-kubala-OpMfiq8nPI0-unsplash.jpg);
     background-size: cover;
@@ -317,7 +388,6 @@ nav {
     background-blend-mode: darken;
     opacity: 50px black;
 }
-
 .download-app h3 {
     text-align: center;
     color: white;
@@ -325,16 +395,13 @@ nav {
     font-size: xx-large;
     font-weight: 600;
 }
-
 .download-app p {
     text-align: center;
     padding-top: 50px;
     font-size: 30px;
     font-weight: 1000;
     color: white;
-
 }
-
 .download-app button {
     margin-top: 2%;
     padding: 17px;
@@ -346,7 +413,6 @@ nav {
     margin-left: 45%;
     font-size: large;
 }
-
 .container {
     background-image: url(images/black-white-spotty-cows-farm.jpg);
     background-color: rgba(0, 0, 0, 0.7);
@@ -354,24 +420,20 @@ nav {
     background-size: cover;
     height: 100vh;
 }
-
 .image img {
     width: 40vw;
     height: 70vh;
 }
-
 .experiences {
     margin-top: 4%;
     display: flex;
     gap: 8cm;
 }
-
 .images img {
     width: 8vw;
     height: 12vh;
     margin-left: 15%;
 }
-
 .partnerships h1 {
     font-size: 64px;
     font-weight: normal;
@@ -379,7 +441,6 @@ nav {
     margin-bottom: 0.5%;
     line-height: 77px;
 }
-
 .partnerships h2 {
     padding-left: 40px;
     padding-bottom: 30px;
@@ -387,12 +448,10 @@ nav {
     color: #001904;
     margin-left: 5%;
 }
-
 .partnerships {
     margin-top: 12%;
     padding-bottom: 60px;
 }
-
 .loan-programs h1 {
     font-size: 64px;
     font-weight: normal;
@@ -400,24 +459,20 @@ nav {
     margin-bottom: 4%;
     line-height: 77px;
 }
-
 .review-icons-image {
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
-
     .review-image {
         position: absolute;
         overflow: visible;
-
         img {
             border-radius: 50%;
             width: 20vh;
             height: 20vh;
-            border: 3px solid #085e16;
+            border: 3px solid #085E16;
         }
     }
-
     .left-icon i {
         color: white;
         margin-top: 330px;
@@ -425,9 +480,7 @@ nav {
         padding: 20px;
         border-radius: 50px;
         width: 100%;
-
     }
-
     .right-icon i {
         color: white;
         margin-top: 330px;
@@ -436,7 +489,6 @@ nav {
         border-radius: 50px;
         width: 100%;
     }
-
     .review {
         margin-top: 7%;
         width: 25%;
@@ -447,13 +499,10 @@ nav {
         border-radius: 20px;
     }
 }
-
 .revews {
     margin-top: 7%;
     margin-bottom: 7%;
-
 }
-
 .revews h1 {
     font-size: 64px;
     font-weight: normal;
@@ -461,12 +510,9 @@ nav {
     margin-bottom: 0.2%;
     line-height: 77px;
 }
-
 .contactus {
     font-size: medium;
-
 }
-
 .foot {
     background-color: #001904;
     color: rgb(216, 215, 215);
@@ -474,20 +520,15 @@ nav {
     height: 60vh;
     padding-top: 45px;
 }
-
 .ally {
     display: flex;
     gap: 9cm;
     padding-left: 50px;
-
 }
-
 .socialicons {
     display: flex;
     gap: 1cm;
-
 }
-
 .bottom {
     display: flex;
     gap: 8cm;
@@ -498,22 +539,17 @@ nav {
     margin-right: 4%;
     margin-bottom: 4%;
 }
-
 .services {
     font-size: medium;
 }
-
 .links {
     font-size: medium;
 }
-
 .form {
     padding-bottom: 20px;
-
     label {
         color: white
     }
-
     input {
         width: 80%;
         padding: 12px 14px;
@@ -522,15 +558,10 @@ nav {
         border: solid 1px white;
         transition: border-color 60s ease;
     }
-
     label {
         font-size: medium;
-
     }
-
-
 }
-
 .submit-button button {
     background: none;
     border: none;
@@ -542,25 +573,17 @@ nav {
     cursor: pointer;
     font-size: large;
 }
-
 #message {
     padding-bottom: 70px;
 }
 #whasap {
     display: flex;
     gap: 0.5cm;
-@media screen and (min-width: 320px) and (max-width: 915px){
-    nav .menu{
-  display: grid;
-  align-items: center;
-  justify-content: space-between;
 }
-
 #phone {
     display: flex;
     gap: 0.5cm;
 }
-
 .testimonial-slider {
     background: rgba(78, 126, 3, 0.8);
     border-radius: 20px;
@@ -572,30 +595,25 @@ nav {
     margin-left: 41rem;
     position: relative;
 }
-
 .testimonial {
     display: none;
     text-align: center;
     transition: opacity 0.6s;
 }
-
 .testimonial.active {
     display: block;
     opacity: 1;
 }
-
 .avatar {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     margin-bottom: 1rem;
 }
-
 .stars {
     color: gold;
     margin: 0.5rem 0;
 }
-
 .slider-nav button {
     background: #025318;
     color: white;
@@ -608,22 +626,18 @@ nav {
     cursor: pointer;
     transition: background 0.3s;
 }
-
 .slider-nav button:hover {
-    background: #b8ac05;
+    background: #B8AC05;
 }
-
 .review-text {
     font-size: 20px;
 }
-
 @media screen and (min-width: 320px) and (max-width: 857px) {
     nav .menu {
         display: grid;
         align-items: center;
         justify-content: space-between;
     }
-
     .making-best {
         display: grid;
         gap: 5cm;
@@ -631,80 +645,14 @@ nav {
         margin-bottom: 5%;
         padding-left: 30px;
     }
-
     .commitment {
         display: grid;
         padding-left: 30px;
         gap: 5cm;
     }
-
     .bigContainer h1 {
         font-size: 28px;
         color: white;
         text-align: left;
     }
-#downloadapp{
-     padding: 17px;
-     width: 175px;
-     background-color:transparent;
-     color: #026612;
-    /* border-color: #011A05; */
-     border: 2px solid #026612;
-     box-shadow: 0 3px 5px rgb(24, 23, 23);
-     border-radius: 8px;
-     margin-left: 4%;
-}
-
-.container{
-    background-image: linear-gradient(rgba(0,0,0.5),rgba(0,0,0.5))url('images/black-white-spotty-cows-farm.jpg');
-    background-repeat:no-repeat ;
-    /* background-position: inherit; */
-    height: 100vh;
-    background-color: rgba(0,0,0,0.9);
-    background-blend-mode: darken;
-    opacity: 10px;
-    width: 100%;
-}
-.about-us h1{
- font-weight: 800;
- font-size: 50px;
- line-height: 77px;
- text-align: center;
-}
-.about-us{
-    margin-top: 7%;
-    margin-left: 0%;
-    padding-bottom: 40px;
-}
-.image img{
-    border-radius: 10px;
-    opacity:  50% black;
-    box-shadow:  0 1px 3px black;
-    width: 100%;
-}
-.best{
-    margin-top: 10%;
-}
-.best h2{
-    font-size: 64px;
-     font-weight: normal;
-     text-align: left;
-     margin-bottom: 4%;
-     line-height: 77px;
-     color: #001904;
-}
-.best p{
-    text-align: left;
-    font-size: 17px;
-
-}
-
-.making-best{
-    display: flex;
-    flex-wrap: wrap;
-   gap: 2cm;
-    margin-top: 2%;
-    margin-bottom: 5%;
-    padding-left: 30px;
-}
 }
