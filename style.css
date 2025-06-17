@@ -1,73 +1,133 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins',sans-serif;
-  text-decoration: none;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
-nav{
-  position: fixed;
+
+/* nav {
+    position: fixed;
+    background: #025318;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+}
+
+nav .menu {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: -4%;
+}
+
+.logo img {
+    padding-left: 20px;
+}
+
+.menu ul {
+    display: inline-flex;
+    padding-right: 4%;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 7px;
+}
+
+.menu ul li:first-child {
+    margin-left: 0px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.menu ul li a:hover {
+    background: #fff;
+    color: black;
+} */
+nav {
   background: #025318;
-  width: 100%;
   padding: 10px 0;
-  z-index: 12;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
-nav .menu{
-  margin: auto;
+.menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
 }
-.menu .logo a{
-  text-decoration: none;
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.logo a {
   color: #fff;
-  font-size: 30px;
-  font-weight:bold;
-  padding-top: -4%;
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: none;
 }
-.logo img{
-      padding-left: 20px;
-}
-.menu ul{
-  display: inline-flex;
-  padding-right: 4%;
-}
-.menu ul li{
+.menu ul {
+  display: flex;
+  gap: 20px;
   list-style: none;
-  margin-left: 7px;
 }
-.menu ul li:first-child{
-  margin-left: 0px;
-}
-.menu ul li a{
-  text-decoration: none;
+.menu ul li a {
   color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 8px 15px;
+  padding: 8px 16px;
   border-radius: 5px;
-  transition: all 0.3s ease;
+  font-weight: 500;
+  transition: background 0.3s;
+  text-decoration: none;
 }
-.menu ul li a:hover{
+.menu ul li a:hover {
   background: #fff;
-  color: black;
+  color: #025318;
 }
-.bigContainer{
+.hero-section {
+  background: linear-gradient(rgba(2,83,24,0.7),rgba(2,83,24,0.7)), url('images/hero-bg.jpg') center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px 60px 20px;
+}
+.bigContainer {
     padding-top: 250px;
     padding-left: 6%;
 }
-.bigContainer h1{
+
+.bigContainer h1 {
     font-size: 70px;
     color: white;
     text-align: left;
     /* margin-bottom: 3%; */
 }
-.button{
+
+.button {
     padding-top: 20px;
 }
-.learnmore{
+
+/* .learnmore{
     padding: 17px;
     width: 175px;
     background-color: #011A05;
@@ -76,189 +136,231 @@ nav .menu{
     font-size: medium;
     border-radius: 8px;
  
+} */
+.learnmore {
+   
+    cursor: pointer;
+    transition: background 0.3s;
+    padding: 17px;
+    width: 175px;
+    background-color: #011A05;
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    border-radius: 8px;
+    border: none;
 }
-.learnmore a{
+
+.learnmore:hover {
+    background: #b8ac05;
+}
+
+.learnmore a {
     text-decoration: none;
     color: white;
 }
 
-#downloadapp{
-     padding: 17px;
-     width: 175px;
-     background-color:transparent;
-     color: #026612;
+#downloadapp {
+    padding: 17px;
+    width: 175px;
+    background-color: transparent;
+    color: #026612;
     /* border-color: #011A05; */
-     border: 2px solid #026612;
-     box-shadow: 0 3px 5px rgb(24, 23, 23);
-     border-radius: 8px;
-     margin-left: 4%;
+    border: 2px solid #026612;
+    box-shadow: 0 3px 5px rgb(24, 23, 23);
+    border-radius: 8px;
+    margin-left: 4%;
 }
 
-.container{
-    background-image: linear-gradient(rgba(0,0,0.5),rgba(0,0,0.5))url('images/black-white-spotty-cows-farm.jpg');
-    background-repeat:no-repeat ;
+.container {
+    background-image: linear-gradient(rgba(0, 0, 0.5), rgba(0, 0, 0.5))url('images/black-white-spotty-cows-farm.jpg');
+    background-repeat: no-repeat;
     /* background-position: inherit; */
     height: 100vh;
-     background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0, 0, 0, 0.9);
     background-blend-mode: darken;
     opacity: 10px;
 }
-.about-us h1{
- font-weight: 800;
- font-size: 64px;
- line-height: 77px;
- text-align: center;
+
+.about-us h1 {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
 }
-.about-us{
+
+.about-us {
     margin-top: 7%;
     margin-left: 3%;
     padding-bottom: 40px;
 }
-.image img{
+
+.image img {
     border-radius: 10px;
-    opacity:  50% black;
-    box-shadow:  0 1px 3px black;
+    opacity: 50% black;
+    box-shadow: 0 1px 3px black;
 }
-.best{
+
+.best {
     margin-top: 10%;
 }
-.best h2{
+
+.best h2 {
     font-size: 64px;
-     font-weight: normal;
-     text-align: left;
-     margin-bottom: 4%;
-     line-height: 77px;
-     color: #001904;
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 4%;
+    line-height: 77px;
+    color: #001904;
 }
-.best p{
+
+.best p {
     text-align: left;
     font-size: 17px;
 
 }
 
-.making-best{
+.making-best {
     display: flex;
-   gap: 5cm;
+    gap: 5cm;
     margin-top: 2%;
     margin-bottom: 5%;
     padding-left: 30px;
 }
-.making-best p{
+
+.making-best p {
     color: #034E16;
 }
-.commitment{
+
+.commitment {
     display: flex;
-   padding-left: 30px;
-   gap: 8cm;
-   margin-left: 5%;
-   margin-top: 9%;
-   margin-bottom: 7%;
+    padding-left: 30px;
+    gap: 8cm;
+    margin-left: 5%;
+    margin-top: 9%;
+    margin-bottom: 7%;
 }
-.commitments h1{
-     font-size: 64px;
-     font-weight: normal;
-     text-align: left;
-     margin-bottom: 4%;
-     line-height: 77px;
+
+.commitments h1 {
+    font-size: 64px;
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 4%;
+    line-height: 77px;
 }
-.commitment p{
-     color: #034E16;
-     text-align: left;
-     font-size: 17px; 
+
+.commitment p {
+    color: #034E16;
+    text-align: left;
+    font-size: 17px;
 }
-.experiences h2{
+
+.experiences h2 {
     font-size: xx-large;
-      color: #001904;
-     
+    color: #001904;
+
 
 }
 
-.why-chose-agricreds{
+.why-chose-agricreds {
     align-items: center;
     margin-bottom: 8%;
 }
 
-.agricreds{
+.agricreds {
     text-align: center;
     /* margin-bottom: 7%; */
     padding-top: 40px;
     padding-bottom: 60px;
-      
+
 }
-.agricreds h1{
-   font-size: 64px;
-     font-weight: normal;
-     text-align: center;
-     margin-bottom: 0.5%;
-     line-height: 77px;
+
+.agricreds h1 {
+    font-size: 64px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 0.5%;
+    line-height: 77px;
 }
-.agricreds p{
-     color: #034E16;
+
+.agricreds p {
+    color: #034E16;
     font-size: 17px;
 
 }
-.about{
-    display: flex; 
+
+.about {
+    display: flex;
     /* padding-left: 60px; */
     margin-left: 8%;
     margin-right: 8%;
     gap: 3cm;
 }
-.about p{
-      color: #034E16;
-      font-size: 16px;
+
+.about p {
+    color: #034E16;
+    font-size: 16px;
 }
-.about{
+
+.about {
     padding-top: 5px;
 
 }
 
-.rates img{
-        width: 90px;
-    
-}
-.terms img{
-         width: 66px;
-         
-   
-}
-.support img{
-        width: 90px;
+.rates img {
+    width: 90px;
+
 }
 
-.loan-program{
+.terms img {
+    width: 66px;
+
+
+}
+
+.support img {
+    width: 90px;
+}
+
+.loan-program {
     display: flex;
     gap: 2cm;
-     color: #001904;
-    
-}
-.loan-program h2{
-     color: #001904;
+    color: #001904;
 
 }
-.loan-program p{
+
+.loan-program h2 {
+    color: #001904;
+
+}
+
+.loan-program p {
     font-size: 17px;
 
 }
-.loan-programs{
+
+.loan-programs {
     margin-left: 8%;
     margin-right: 7%;
     margin-top: 7%;
     padding-bottom: 60px;
 
-  
+
 }
-.loan-programs p{
-      color: #034E16;
+
+.loan-programs p {
+    color: #034E16;
 }
-.loan-program img{
+
+.loan-program img {
     width: 20vw;
     height: 26vh;
     border-radius: 10px;
-    opacity:  50% black;
-    box-shadow:  0 1px 3px black;
+    opacity: 50% black;
+    box-shadow: 0 1px 3px black;
 }
-.download-app{
+
+.download-app {
     background-image: url(images/monika-kubala-OpMfiq8nPI0-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -267,18 +369,20 @@ nav .menu{
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 20px;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: darken;
     opacity: 50px black;
 }
-.download-app h3{
-   text-align: center;
+
+.download-app h3 {
+    text-align: center;
     color: white;
     padding-top: 200px;
     font-size: xx-large;
     font-weight: 600;
 }
-.download-app p{
+
+.download-app p {
     text-align: center;
     padding-top: 50px;
     font-size: 30px;
@@ -286,7 +390,8 @@ nav .menu{
     color: white;
 
 }
-.download-app button{
+
+.download-app button {
     margin-top: 2%;
     padding: 17px;
     width: 170px;
@@ -297,53 +402,59 @@ nav .menu{
     margin-left: 45%;
     font-size: large;
 }
-.container{
+
+.container {
     background-image: url(images/black-white-spotty-cows-farm.jpg);
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: darken;
     background-size: cover;
     height: 100vh;
 }
-.image img{
+
+.image img {
     width: 40vw;
     height: 70vh;
 }
-.experiences{
+
+.experiences {
     margin-top: 4%;
     display: flex;
     gap: 8cm;
 }
-.images img{
+
+.images img {
     width: 8vw;
     height: 12vh;
     margin-left: 15%;
 }
 
-.partnerships h1{
-     font-size: 64px;
-     font-weight: normal;
-     text-align: center;
-     margin-bottom: 0.5%;
-     line-height: 77px;
+.partnerships h1 {
+    font-size: 64px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 0.5%;
+    line-height: 77px;
 }
-.partnerships h2{
+
+.partnerships h2 {
     padding-left: 40px;
     padding-bottom: 30px;
     font-size: 30px;
     color: #001904;
     margin-left: 5%;
 }
+
 .partnerships {
     margin-top: 12%;
     padding-bottom: 60px;
 }
 
-.loan-programs h1{
-     font-size: 64px;
-     font-weight: normal;
-     text-align: center;
-     margin-bottom: 4%;
-     line-height: 77px;
+.loan-programs h1 {
+    font-size: 64px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 4%;
+    line-height: 77px;
 }
 
 .review-icons-image {
@@ -370,14 +481,14 @@ nav .menu{
         padding: 20px;
         border-radius: 50px;
         width: 100%;
-        
+
     }
 
     .right-icon i {
         color: white;
         margin-top: 330px;
         background-color: #001904;
-       padding: 20px;
+        padding: 20px;
         border-radius: 50px;
         width: 100%;
     }
@@ -393,61 +504,73 @@ nav .menu{
     }
 }
 
-.revews{
-  margin-top: 7%;
-  margin-bottom: 7%;
-  
-}
-.revews h1 {
-     font-size: 64px;
-     font-weight: normal;
-     text-align: center;
-     margin-bottom: 0.2%;
-     line-height: 77px;
-}
-.contactus{
-     font-size: medium;
+.revews {
+    margin-top: 7%;
+    margin-bottom: 7%;
 
 }
-.foot{
-     background-color: #001904;
-     color: rgb(216, 215, 215);
-     margin: 0px;
-     padding-top: 45px;
-     height: 75vh;
+
+.revews h1 {
+    font-size: 64px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 0.2%;
+    line-height: 77px;
 }
-.ally{
+
+.contactus {
+    font-size: medium;
+
+}
+
+.foot {
+    background-color: #001904;
+    color: rgb(216, 215, 215);
+    margin: 0px;
+    height: 60vh;
+    padding-top: 45px;
+}
+
+.ally {
     display: flex;
     gap: 9cm;
     padding-left: 50px;
 
 }
-.socialicons{
+
+.socialicons {
     display: flex;
     gap: 1cm;
 
 }
-.bottom{
+
+.bottom {
     display: flex;
     gap: 8cm;
     font-size: medium;
     padding-top: 20px;
-    border-top:  solid 1px white;
+    border-top: solid 1px white;
     margin-left: 4%;
     margin-right: 4%;
+    margin-bottom: 4%;
 }
-.services{
+
+.services {
     font-size: medium;
 }
-.links{
-     font-size: medium;
+
+.links {
+    font-size: medium;
 }
-.form{
+
+.form {
     padding-bottom: 20px;
-    label{
-        color:white
+
+    label {
+        color: white
     }
-    input{
+
+    input {
         width: 80%;
         padding: 12px 14px;
         background-color: #001904;
@@ -455,17 +578,19 @@ nav .menu{
         border: solid 1px white;
         transition: border-color 60s ease;
     }
-    label{
+
+    label {
         font-size: medium;
-        
+
     }
-  
+
 
 }
-.submit-button button{
+
+.submit-button button {
     background: none;
     border: none;
-    background-color:white;
+    background-color: white;
     width: 65%;
     color: black;
     padding: 11px 15px;
@@ -473,30 +598,101 @@ nav .menu{
     cursor: pointer;
     font-size: large;
 }
-#message{
+
+#message {
     padding-bottom: 70px;
 }
-@media screen and (min-width: 320px) and (max-width: 857px){
-    nav .menu{
-  display: grid;
-  align-items: center;
-  justify-content: space-between;
+
+#whasap {
+    display: flex;
+    gap: 0.5cm;
 }
-.making-best{
-    display: grid;
-   gap: 5cm;
-    margin-top: 2%;
-    margin-bottom: 5%;
-    padding-left: 30px;
+
+#phone {
+    display: flex;
+    gap: 0.5cm;
 }
-.commitment{
-    display: grid;
-   padding-left: 30px;
-   gap: 5cm;
+
+.testimonial-slider {
+    background: rgba(78, 126, 3, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    padding: 2rem;
+    max-width: 700px;
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+    margin-left: 41rem;
+    position: relative;
 }
-.bigContainer h1{
-    font-size: 28px;
+
+.testimonial {
+    display: none;
+    text-align: center;
+    transition: opacity 0.6s;
+}
+
+.testimonial.active {
+    display: block;
+    opacity: 1;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.stars {
+    color: gold;
+    margin: 0.5rem 0;
+}
+
+.slider-nav button {
+    background: #025318;
     color: white;
-    text-align: left;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background 0.3s;
 }
+
+.slider-nav button:hover {
+    background: #b8ac05;
+}
+
+.review-text {
+    font-size: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 857px) {
+    nav .menu {
+        display: grid;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .making-best {
+        display: grid;
+        gap: 5cm;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        padding-left: 30px;
+    }
+
+    .commitment {
+        display: grid;
+        padding-left: 30px;
+        gap: 5cm;
+    }
+
+    .bigContainer h1 {
+        font-size: 28px;
+        color: white;
+        text-align: left;
+    }
 }
