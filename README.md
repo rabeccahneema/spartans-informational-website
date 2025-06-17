@@ -5,7 +5,7 @@
    AgriCreds is a web application designed to empower dairy farmers with tailored financial solutions. Our mission is to support the growth and sustainability of the dairy industry by providing accessible financial services.
 
 ***
-#✨ Features 
+✨ Features 
 
   
 
@@ -23,7 +23,7 @@
 
    📥 Download App Button: Direct access to download the mobile application.
 ***
-#🛠 Tech Stack
+🛠 Tech Stack
 
   Javascript
   
@@ -35,12 +35,12 @@
   
   Responsive Design Techniques: Media Queries for Mobile Optimization
 ***    
-#📸 Screenshots
-***
+📸 Screenshots
+
    🎥 Click here to watch the demo
 ***
 #📦 Installation
-***
+
    Clone the repository:
 
    git clone git@github.com:rabeccahneema/spartans-informational-website.git
