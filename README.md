@@ -6,6 +6,7 @@
 
 ***
 ✨ Features 
+***
   
 
    🖥️ User-Friendly Interface: A clean and intuitive layout for easy navigation.
@@ -23,17 +24,20 @@
    📥 Download App Button: Direct access to download the mobile application.
 ***
 🛠 Tech Stack
+***
 
   Javascript
   HTML
   CSS
   Font Awesome: Icons for  enhanced visual appeal.
   Responsive Design Techniques: Media Queries for Mobile Optimization
-    
+***    
 📸 Screenshots
+***
    🎥 Click here to watch the demo
-
+***
 📦 Installation
+***
    Clone the repository:
 
    git clone git@github.com:rabeccahneema/spartans-informational-website.git
