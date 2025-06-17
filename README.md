@@ -4,9 +4,9 @@
 
    AgriCreds is a web application designed to empower dairy farmers with tailored financial solutions. Our mission is to support the growth and sustainability of the dairy industry by providing accessible financial services.
 
-
+***
 ✨ Features 
-
+  
 
    🖥️ User-Friendly Interface: A clean and intuitive layout for easy navigation.
 
@@ -21,7 +21,7 @@
    🌐 Social Media Integration: Links to follow AgriCreds on various social platforms.
 
    📥 Download App Button: Direct access to download the mobile application.
-
+***
 🛠 Tech Stack
 
   Javascript
