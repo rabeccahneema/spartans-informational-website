@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #f4f8f5;
+  color: #034E16;
+}
+nav {
+  background: #025318;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.logo a {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.menu ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.menu ul li a {
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: background 0.3s;
+  text-decoration: none;
+}
+.menu ul li a:hover {
+  background: #fff;
+  color: #025318;
+}
+.hero-section {
+  background: linear-gradient(rgba(2,83,24,0.7),rgba(2,83,24,0.7)), url('images/hero-bg.jpg') center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px 60px 20px;
+}
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.hero-content p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.scroll-down {
+  color: #fff;
+  font-size: 32px;
+  text-decoration: none;
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0);}
+  50% { transform: translateY(10px);}
+}
+.info-section {
+  max-width: 900px;
+  margin: 60px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(2,83,24,0.07);
+  padding: 40px 30px;
+}
+.info-section h2 {
+  color: #025318;
+  font-size: 32px;
+  margin-bottom: 18px;
+}
+.values-list {
+  list-style: none;
+  padding: 0;
+}
+.values-list li {
+  font-size: 20px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+.values-list i {
+  color: #026612;
+  margin-right: 14px;
+  font-size: 22px;
+}
+.team-section .team-grid {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.team-member {
+  background: #f4f8f5;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(2,83,24,0.05);
+  padding: 20px;
+  text-align: center;
+  width: 210px;
+}
+.team-member img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+.team-member h3 {
+  margin: 10px 0 4px 0;
+  font-size: 20px;
+  color: #025318;
+}
+.team-member p {
+  font-size: 16px;
+  color: #034E16;
+}
+
+.contactus{
+     font-size: medium;
+
+}
+.foot{
+     background-color: #001904;
+     color: rgb(216, 215, 215);
+     margin: 0px;
+     padding-top: 45px;
+     height: 75vh;
+}
+.ally{
+    display: flex;
+    gap: 9cm;
+    padding-left: 50px;
+
+}
+.socialicons{
+    display: flex;
+    gap: 1cm;
+
+}
+.bottom{
+    display: flex;
+    gap: 5cm;
+    font-size: medium;
+    padding-top: 20px;
+    border-top:  solid 1px white;
+    background-color: #001904;
+    padding-left: 10cm;
+}
+.services{
+    font-size: medium;
+}
+.links{
+     font-size: medium;
+}
+.form{
+    padding-bottom: 20px;
+    label{
+        color:white
+    }
+    input{
+        width: 80%;
+        padding: 12px 14px;
+        background-color: #001904;
+        color: white;
+        border: solid 1px white;
+        transition: border-color 60s ease;
+    }
+    label{
+        font-size: medium;
+        
+    }
+  
+
+}
+.submit-button button{
+    background: none;
+    border: none;
+    background-color:white;
+    width: 65%;
+    color: black;
+    padding: 11px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+#message{
+    padding-bottom: 70px;
+}
+@media (max-width: 700px) {
+  .info-section, .team-section .team-grid {
+    flex-direction: column;
+    padding: 20px 8px;
+    gap: 18px;
+  }
+  .team-member {
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .making-best, .commitment, .about, .loan-program {
+    gap: 3rem !important;
+  }
+  .about {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+
+@media (max-width: 900px) {
+  .making-best, .commitment, .about, .loan-program {
+    flex-direction: column !important;
+    gap: 2rem !important;
+  }
+  .about-us, .loan-programs {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .commitment {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  nav .menu {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .menu ul {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+  .menu ul li {
+    margin: 0 0 10px 0;
+  }
+  .bigContainer {
+    padding-top: 120px;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .bigContainer h1 {
+    font-size: 36px;
+    text-align: left;
+  }
+  .about-us h1,
+  .agricreds h1,
+  .commitments h1 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+  .best h2 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  .making-best, .commitment, .about, .loan-program {
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .image img, .loan-program img, .about img {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 350px;
+    margin: 0 auto;
+    display: block;
+  }
+  .download-app {
+    height: auto;
+    padding-bottom: 40px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .download-app h3 {
+    padding-top: 60px;
+    font-size: 24px;
+  }
+  .download-app p {
+    font-size: 18px;
+    padding-top: 20px;
+  }
+  .foot .ally {
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 10px;
+  }
+  .foot .links, .foot .services, .foot .contactus {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+  .review-icons-image {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .review-image img {
+    width: 80px !important;
+    height: 80px !important;
+  }
+  .review {
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+#whasap{
+    display: flex;
+    gap: 0.5cm;
+}
+#phone{
+    display: flex;
+    gap: 0.5cm;
+}
+
+
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  .bigContainer h1 {
+    font-size: 22px;
+  }
+  .button {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .learnmore, #downloadapp {
+    width: 100%;
+    margin-left: 0;
+  }
+  .about-us h1,
+  .agricreds h1,
+  .commitments h1 {
+    font-size: 22px;
+  }
+  .best h2 {
+    font-size: 18px;
+  }
+  .download-app h3, .download-app p {
+    font-size: 16px;
+  }
+  .review {
+    font-size: 14px;
+  }
+}
