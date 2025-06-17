@@ -15,25 +15,24 @@ nav{
   z-index: 12;
 }
 nav .menu{
-  
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding: 15px; */
 }
 .menu .logo a{
   text-decoration: none;
   color: #fff;
   font-size: 30px;
   font-weight:bold;
+  padding-top: -4%;
 }
 .logo img{
       padding-left: 20px;
-   
 }
 .menu ul{
   display: inline-flex;
+  padding-right: 4%;
 }
 .menu ul li{
   list-style: none;
@@ -111,14 +110,14 @@ nav .menu{
  text-align: center;
 }
 .about-us{
-    padding-top: 40px;
+    margin-top: 7%;
+    margin-left: 3%;
     padding-bottom: 40px;
 }
 .image img{
     border-radius: 10px;
     opacity:  50% black;
     box-shadow:  0 1px 3px black;
-  
 }
 .best{
     margin-top: 10%;
@@ -133,7 +132,7 @@ nav .menu{
 }
 .best p{
     text-align: left;
-    font-size: 20px;
+    font-size: 17px;
 
 }
 
@@ -150,7 +149,10 @@ nav .menu{
 .commitment{
     display: flex;
    padding-left: 30px;
-   gap: 5cm;
+   gap: 8cm;
+   margin-left: 5%;
+   margin-top: 9%;
+   margin-bottom: 7%;
 }
 .commitments h1{
      font-size: 64px;
@@ -162,7 +164,7 @@ nav .menu{
 .commitment p{
      color: #034E16;
      text-align: left;
-     font-size: 20px; 
+     font-size: 17px; 
 }
 .experiences h2{
     font-size: xx-large;
@@ -173,6 +175,7 @@ nav .menu{
 
 .why-chose-agricreds{
     align-items: center;
+    margin-bottom: 8%;
 }
 
 .agricreds{
@@ -191,17 +194,19 @@ nav .menu{
 }
 .agricreds p{
      color: #034E16;
-    font-size: 20px;
+    font-size: 17px;
 
 }
 .about{
     display: flex; 
-    padding-left: 60px;
+    /* padding-left: 60px; */
+    margin-left: 8%;
+    margin-right: 8%;
     gap: 3cm;
 }
 .about p{
       color: #034E16;
-      font-size: large;
+      font-size: 16px;
 }
 .about{
     padding-top: 5px;
@@ -232,11 +237,12 @@ nav .menu{
 
 }
 .loan-program p{
-    font-size: large;
+    font-size: 17px;
 
 }
 .loan-programs{
-    padding-left: 70px;
+    margin-left: 8%;
+    margin-right: 7%;
     margin-top: 7%;
     padding-bottom: 60px;
 
@@ -265,24 +271,18 @@ nav .menu{
     background-blend-mode: darken;
     opacity: 50px black;
 }
-.download-app{
-    /* padding-top: 17%;
-    padding-left: 37%;
-    color: white;
-    margin-bottom: 12%; */
-}
 .download-app h3{
    text-align: center;
     color: white;
     padding-top: 200px;
     font-size: xx-large;
-    font-weight: lighter;
+    font-weight: 600;
 }
 .download-app p{
     text-align: center;
     padding-top: 50px;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 1000;
     color: white;
 
 }
@@ -305,24 +305,18 @@ nav .menu{
     height: 100vh;
 }
 .image img{
-    width: 42vw;
+    width: 40vw;
     height: 70vh;
 }
 .experiences{
-    margin-top: 7%;
+    margin-top: 4%;
     display: flex;
-    gap: 5cm;
+    gap: 8cm;
 }
 .images img{
     width: 8vw;
     height: 12vh;
     margin-left: 15%;
-    /* justify-content: space-around; */
-    
-    
-    /* border-radius: 50% 50%; */
-    /* margin-right: 5%;
-    margin-left: 5%; */
 }
 
 .partnerships h1{
@@ -336,11 +330,12 @@ nav .menu{
     padding-left: 40px;
     padding-bottom: 30px;
     font-size: 30px;
-      color: #001904;
+    color: #001904;
+    margin-left: 5%;
 }
 .partnerships {
-  padding-top: 60px;
-  padding-bottom: 60px;
+    margin-top: 12%;
+    padding-bottom: 60px;
 }
 
 .loan-programs h1{
@@ -349,8 +344,6 @@ nav .menu{
      text-align: center;
      margin-bottom: 4%;
      line-height: 77px;
-    
-
 }
 
 .review-icons-image {
@@ -364,8 +357,8 @@ nav .menu{
 
         img {
             border-radius: 50%;
-            width: 24vh;
-            height: 22vh;
+            width: 20vh;
+            height: 20vh;
             border: 3px solid #085e16;
         }
     }
@@ -390,19 +383,19 @@ nav .menu{
     }
 
     .review {
-        margin-top: 130px;
+        margin-top: 7%;
         width: 25%;
         background-color: #001904;
         color: white;
         padding: 50px;
-        font-size: 18px;
+        font-size: 17px;
         border-radius: 20px;
     }
 }
 
 .revews{
-  padding-top: 40px;
-  padding-bottom: 30px;
+  margin-top: 7%;
+  margin-bottom: 7%;
   
 }
 .revews h1 {
@@ -421,15 +414,12 @@ nav .menu{
      color: rgb(216, 215, 215);
      margin: 0px;
      padding-top: 45px;
-
+     height: 75vh;
 }
-
 .ally{
     display: flex;
-    /* justify-content: space-between; */
     gap: 9cm;
     padding-left: 50px;
-     /* background-color: rgb(8, 17, 8); */
 
 }
 .socialicons{
@@ -491,7 +481,6 @@ nav .menu{
   display: grid;
   align-items: center;
   justify-content: space-between;
-  /* padding: 15px; */
 }
 .making-best{
     display: grid;
