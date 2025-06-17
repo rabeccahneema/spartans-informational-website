@@ -25,11 +25,14 @@
 ***
 🛠 Tech Stack
 
-
   Javascript
+  
   HTML
+  
   CSS
+  
   Font Awesome: Icons for  enhanced visual appeal.
+  
   Responsive Design Techniques: Media Queries for Mobile Optimization
 ***    
 📸 Screenshots
