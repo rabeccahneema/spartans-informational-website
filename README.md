@@ -1,10 +1,11 @@
 # spartans-informational-website
 
-🗂️ Task Organizer App
-    AgriCreds is a web application designed to empower dairy farmers with tailored financial solutions. Our mission is to support the growth and sustainability of the dairy industry by providing accessible financial services.
+🗂️ **AGRICREDS INFORMATIONAL WEBSITE**
+
+   AgriCreds is a web application designed to empower dairy farmers with tailored financial solutions. Our mission is to support the growth and sustainability of the dairy industry by providing accessible financial services.
 
 
-✨ Features
+✨ Features 
 
 
    🖥️ User-Friendly Interface: A clean and intuitive layout for easy navigation.
