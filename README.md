@@ -24,7 +24,7 @@
    📥 Download App Button: Direct access to download the mobile application.
 ***
 🛠 Tech Stack
-***
+
 
   Javascript
   HTML
