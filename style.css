@@ -390,7 +390,7 @@ nav .menu{
     }
 
     .review {
-        margin-top: 100px;
+        margin-top: 130px;
         width: 25%;
         background-color: #001904;
         color: white;
@@ -488,8 +488,6 @@ nav .menu{
 }
 @media screen and (min-width: 320px) and (max-width: 857px){
     nav .menu{
-  
-  /* margin: auto; */
   display: grid;
   align-items: center;
   justify-content: space-between;
@@ -511,6 +509,5 @@ nav .menu{
     font-size: 28px;
     color: white;
     text-align: left;
-    /* margin-bottom: 3%; */
 }
 }
