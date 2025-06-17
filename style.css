@@ -476,7 +476,7 @@ nav .menu{
 #message{
     padding-bottom: 70px;
 }
-@media screen and (min-width: 320px) and (max-width: 857px){
+@media screen and (min-width: 320px) and (max-width: 915px){
     nav .menu{
   display: grid;
   align-items: center;
@@ -498,5 +498,70 @@ nav .menu{
     font-size: 28px;
     color: white;
     text-align: left;
+}
+
+#downloadapp{
+     padding: 17px;
+     width: 175px;
+     background-color:transparent;
+     color: #026612;
+    /* border-color: #011A05; */
+     border: 2px solid #026612;
+     box-shadow: 0 3px 5px rgb(24, 23, 23);
+     border-radius: 8px;
+     margin-left: 4%;
+}
+
+.container{
+    background-image: linear-gradient(rgba(0,0,0.5),rgba(0,0,0.5))url('images/black-white-spotty-cows-farm.jpg');
+    background-repeat:no-repeat ;
+    /* background-position: inherit; */
+    height: 100vh;
+    background-color: rgba(0,0,0,0.9);
+    background-blend-mode: darken;
+    opacity: 10px;
+    width: 100%;
+}
+.about-us h1{
+ font-weight: 800;
+ font-size: 50px;
+ line-height: 77px;
+ text-align: center;
+}
+.about-us{
+    margin-top: 7%;
+    margin-left: 0%;
+    padding-bottom: 40px;
+}
+.image img{
+    border-radius: 10px;
+    opacity:  50% black;
+    box-shadow:  0 1px 3px black;
+    width: 100%;
+}
+.best{
+    margin-top: 10%;
+}
+.best h2{
+    font-size: 64px;
+     font-weight: normal;
+     text-align: left;
+     margin-bottom: 4%;
+     line-height: 77px;
+     color: #001904;
+}
+.best p{
+    text-align: left;
+    font-size: 17px;
+
+}
+
+.making-best{
+    display: flex;
+    flex-wrap: wrap;
+   gap: 2cm;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding-left: 30px;
 }
 }
