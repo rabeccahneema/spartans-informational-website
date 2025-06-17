@@ -242,9 +242,6 @@ nav .menu{
 
   
 }
-.loan-programs h2{
-   
-}
 .loan-programs p{
       color: #034E16;
 }
@@ -488,4 +485,29 @@ nav .menu{
 }
 #message{
     padding-bottom: 70px;
+}
+@media screen and (min-width: 320px) and (max-width: 857px){
+    nav .menu{
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 15px; */
+}
+.making-best{
+    display: grid;
+   gap: 5cm;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding-left: 30px;
+}
+.commitment{
+    display: grid;
+   padding-left: 30px;
+   gap: 5cm;
+}
+.bigContainer h1{
+    font-size: 28px;
+    color: white;
+    text-align: left;
+}
 }
